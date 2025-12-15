@@ -1,0 +1,23 @@
+# Model artifacts
+*.gguf
+*.bin
+*.pt
+*.ckpt
+*.safetensors
+
+# Training outputs
+qwen-ft/
+qwen15-ww2-lora/
+qwen15-ww2-lora-chat/
+qwen15-ww2-merged/
+
+# Caches
+.cache/
+**/.cache/
+**/torch_extensions/
+
+# Python
+__pycache__/
+*.pyc
+.env
+
