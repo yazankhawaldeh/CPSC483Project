@@ -10,7 +10,7 @@ from transformers import (
 from peft import LoraConfig, get_peft_model
 
 MODEL = "Qwen/Qwen1.5-1.8B-Chat"
-DATA = "data/ww2_qwen_chat.json"
+DATA = "data/ww2-json1000.json"
 OUT_DIR = "qwen15-ww2-lora-chat"
 
 
